@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+/* Esta linha força o motor v4 a ler sua configuração de plugins v3.
+  O caminho deve apontar para onde o seu tailwind.config.ts está.
+*/
+@config "../../tailwind.config.ts";
+
+@theme {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
